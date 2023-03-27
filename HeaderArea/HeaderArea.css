@@ -1,0 +1,106 @@
+html{
+    font: size 60%;
+    box-sizing: border-box;
+    margin-right: 0px;
+}
+*{
+    margin: 0%;
+}
+body{
+    font:1.6rem helvetica;
+    background-color: #f0f2f5;
+    margin-right: o;
+}
+.HomePage{
+    display: grid;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 4.5rem;
+    border: .1rem black;
+    margin-right: 20px;
+}
+.first-header{
+    display: flex;
+}
+.Search{
+    display: flex;
+    align-items: center;
+    background-color: #F0F2F5;
+    border-radius: 1rem;
+    height: 2.8rem;
+    padding: 0 20px;
+    margin: 28px 7px;
+
+}
+input[type=Search]{
+    width: 100%;
+    padding: 12px 27px;
+    margin: 8px 0;
+    align-items: center;
+    box-sizing: border-box;
+    outline-width: 50px;
+    background-color: #F0F2F5;
+    border:none;
+}
+input::placeholder{font-size: 1rem;}
+
+.middle-header{
+    display: flex;
+    align-items: center;
+    flex: 0%;
+    justify-content: center;
+    width: 1%;
+    margin-left: 0;
+}
+.Icon{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 50px;
+}
+
+.third-header{
+    display: flex;
+    align-items: center;
+}
+.Plus{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0px 50px;
+    /* margin-right: 10px; */
+    border-radius: 50%;
+    height: 2.7rem;
+    background-color: #F0F2F5;
+}
+.Pluss{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 0 10px;
+    font-weight: 500;
+    border-radius: 50%;
+    height: 3rem;
+    margin-right: 20px;
+}
+.Pluss>div{
+    padding-left: 10px;
+}
+.Pluss>img{
+    border-radius: 50%;
+    max-width: 40%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 50px;
+}
